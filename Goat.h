@@ -41,7 +41,7 @@ public:
     void set_color(string c)        { color = c; }
     string get_color() const        { return color; }
 
-    // write overloaded < operator for the std::list
+    // write overloaded < operator for the std::set
     bool operator<(const Goat& other) {
         return name < other.name;
     }
